@@ -1,3 +1,40 @@
 .App {
   text-align: center;
+  
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+#title {
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#mission-card {
+  margin: 10px;
+  border: 1px solid white
+}
+
+#planetCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+#planetCard {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+#planetCard img  {
+  height: 70%;
+  width: 70%;
 }
